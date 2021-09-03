@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.androiddev.chitchat">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/chitchat2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ChitChat">
+<<<<<<< HEAD
+        <activity android:name=".ProfileActivity"></activity>
+        <activity android:name=".ChatActivity" />
+=======
+        <activity android:name=".ChatActivity"></activity>
+>>>>>>> a6fa56d0a45eef10e12c905be8aeb0b6dabe0106
+        <activity
+            android:name=".SignUpActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoginActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation"
+<<<<<<< HEAD
+            android:screenOrientation="portrait" />
+=======
+            android:screenOrientation="portrait"></activity>
+>>>>>>> a6fa56d0a45eef10e12c905be8aeb0b6dabe0106
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

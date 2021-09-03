@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+<<<<<<< HEAD
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="50dp">
+=======
+    android:layout_height="wrap_content">
+>>>>>>> a6fa56d0a45eef10e12c905be8aeb0b6dabe0106
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/msgback"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/txt_receive_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is received message"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

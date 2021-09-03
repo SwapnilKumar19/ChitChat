@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+<<<<<<< HEAD
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+       >
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="12dp">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/default_user"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        />
+=======
+    android:layout_height="100dp"
+    android:elevation="5dp"
+    android:layout_margin="3dp">
+>>>>>>> a6fa56d0a45eef10e12c905be8aeb0b6dabe0106
+
+    <TextView
+        android:id="@+id/txt_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Peter Parker"
+<<<<<<< HEAD
+        android:textSize="20sp"
+        android:fontFamily="@font/acme"
+        android:textColor="@color/black"
+        android:layout_gravity="center_vertical"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <View
+        android:layout_width="300dp"
+        android:layout_height="0.5dp"
+        android:background="#808080"
+        android:layout_marginStart="80dp"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+=======
+        android:textSize="30sp"
+        android:fontFamily="@font/acme"
+        android:textColor="@color/blue_200"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="25dp"/>
+>>>>>>> a6fa56d0a45eef10e12c905be8aeb0b6dabe0106
+
+</androidx.cardview.widget.CardView>

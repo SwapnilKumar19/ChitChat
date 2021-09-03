@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<<<<<<< HEAD
+
+    <item android:id="@+id/myProfile" android:title="My Profile"/>
+=======
+>>>>>>> a6fa56d0a45eef10e12c905be8aeb0b6dabe0106
+    <item android:id="@+id/logout" android:title="Logout"/>
+
+</menu>
